@@ -1,0 +1,634 @@
+/*----------------------------------------------------------------------*/
+
+/* Webpage Links and Navigation */
+
+/*
+a:link {
+    text-decoration: none;
+    color: mediumpurple;
+}
+
+a:visited {
+    text-decoration: none;
+}
+*/
+/*
+a:hover {
+    color: darksalmon;
+}
+*/
+
+/*
+a:active {
+    text-decoration: none;
+        border-bottom: 2px solid deepskyblue;
+}
+*/
+
+/*----------------------------------------------------------------------*/
+
+/* Alignment and Text Properties */
+
+div.a {
+    text-align: left;
+    font-family: Dosis, sans-serif;
+}
+
+/*
+div.b {
+    text-align: right;
+    font-family: Dosis, sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+*/
+
+div.c {
+    text-align: center;
+    font-family: Dosis, sans-serif;
+}
+
+h1 {
+    font-family: Dosis, sans-serif;
+    color: #648dc3;
+    font-size: 4.5rem;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Dosis, sans-serif;
+    color: #648dc3;
+    font-size: 3.25rem;
+    text-decoration: none;
+    margin: 0 10px 15px;
+}
+
+p {
+    font-family: "Dosis", sans-serif;
+    font-size: 1.75rem;
+    color: darkslategrey;
+    text-decoration-style: double;
+    margin: 5px 50px 5px 50px;
+}
+
+body {
+    /*
+    background-color: #FDE2AB;
+           #a6d0dd #a3e2cd;
+*/
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+    color: #648dc3;
+    margin: 0;
+    padding: 0;
+    background-color: #fde2aba1;
+}
+
+header {
+    /*        display: flex;*/
+    background-color: #fde2ab;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px;
+    margin: 0 auto;
+    box-shadow: 0 0 8px #1f477d;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* Logo & Navigation */
+
+.logo {
+    /*    margin: 0 auto;*/
+    font-size: 2.5rem;
+    font-family: "Dosis", sans-serif;
+    color: #648dc3;
+    font-weight: 600;
+    text-decoration: none;
+    /*        display: flex;*/
+}
+
+.logo a:link {
+    color: #648dc3;
+    text-decoration: none;
+}
+
+.logo a:visited {
+    color: #648dc3;
+    text-decoration: none;
+}
+
+
+nav {
+    display: flex;
+    text-align: right;
+    font-family: "Dosis", sans-serif;
+    text-decoration: none;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    /*    outline: 1px dotted tomato;*/
+
+    /*            display: inline-block;*/
+    /*    text-align: center;*/
+    /*        padding: 2.5px;*/
+
+}
+
+nav li a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav li a.active {
+    /*    padding-bottom: 0;*/
+    /*    border-bottom: 1px solid #648dc3;*/
+    font-weight: 900;
+    color: #648dc3;
+}
+
+nav li a:hover {
+    color: #B48DC3;
+}
+
+
+.home-nav {
+
+    text-align: center;
+    font-family: Dosis, sans-serif;
+    display: block;
+    text-decoration: none;
+    font-size: 6rem;
+    margin: 0 auto;
+}
+
+.home-nav li {
+    display: inline-block;
+    text-align: center;
+    padding: 75px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.home-nav a:link {
+    color: #648dc3;
+    text-decoration: none;
+}
+
+
+.home-nav a:visited {
+    color: #648dc3;
+    text-decoration: none;
+}
+
+.games {
+    /*    background-color: #648dc3;*/
+    border: 5px solid #648dc3;
+    border-radius: 5%;
+    padding: 50px;
+    text-decoration: none;
+}
+
+.videos {
+    /*    background-color: #648dc3;*/
+    border: 5px solid #648dc3;
+    border-radius: 5%;
+    padding: 50px;
+    text-decoration: none;
+}
+
+.photos {
+    /*    background-color: #648dc3;*/
+    border: 5px solid #648dc3;
+    border-radius: 5%;
+    padding: 50px;
+    text-decoration: none;
+}
+
+.about {
+    /*    background-color: #648dc3;*/
+    border: 5px solid #648dc3;
+    border-radius: 5%;
+    padding: 50px;
+    text-decoration: none;
+}
+
+/*
+#overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}*/
+
+/*----------------------------------------------------------------------*/
+
+/* Basic Setups */
+
+/*
+    float: left;
+    width: 0%;
+    height: auto;
+*/
+}
+
+article {
+    float: right;
+    padding: 0px;
+    width: 100%;
+}
+
+aside {
+    text-align: center;
+}
+
+main {
+    clear: both;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 5px 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-pic {
+    border-radius: 100%;
+    /*        float: left;*/
+    margin: 0 auto;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+/* Social Media Icon Sidebar */
+
+.fa-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.fa {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 2px;
+    transition: all 0.5s ease;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/*
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin: 5px 1px;
+    display: block;
+*/
+
+a:hover {
+    opacity: .7;
+}
+
+.fa-twitter {
+    background: #648dc3;
+    color: white;
+    border-radius: 15%
+}
+
+.fa-linkedin {
+    background: #4F8DC3;
+    color: white;
+    border-radius: 15%
+}
+
+.fa-instagram {
+    background: #D35254;
+    color: white;
+    border-radius: 15%
+}
+
+.fa-envelope {
+    background: #D65246;
+    color: white;
+    border-radius: 15%;
+}
+
+.button {
+    /*    border: 5px solid #648dc3;*/
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button a:hover {
+    opacity: 70%;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* Modal Contact Form */
+
+
+.bg-modal {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contents {
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    border-radius: 1%;
+}
+
+form {
+    font-family: Dosis, sans-serif;
+    display: block;
+    margin-top: 0em;
+    /*    font-size: 1rem;*/
+    /*    margin: 0 auto;*/
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+input[type=text],
+input[type=email],
+select {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 15px auto;
+    display: inline-block;
+    border: 1px solid #648dc3;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/*
+button,
+input {
+    line-height: normal;
+}*/
+
+/*
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%;
+}
+*/
+
+input {
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 50px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+
+    &:hover {
+        color: #666;
+    }
+}
+
+textarea {
+    width: 100%;
+    /*    height: 260px;*/
+    padding: 15px;
+    border: 1px solid #648dc3;
+    border-radius: 4px;
+    resize: vertical;
+    overflow: auto;
+    vertical-align: top;
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input[type=submit] {
+    background-color: #648dc3;
+    color: white;
+    padding: 25px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+input[type=submit]:hover {
+    background-color: #4F8DC3;
+}
+
+/* ----------------------------------------------------------------------*/
+
+
+
+/* The Gallery Section for my Games, Videos, and Photography*/
+
+.gallery-section {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.inner-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 61px;
+}
+
+.gallery-section h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0 30px 0;
+    /*    text-decoration-line: underline;*/
+}
+
+.gallery-section .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-section .gallery iframe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+    border: 0;
+
+}
+
+.gallery-section .image {
+    flex: 24%;
+    /*            overflow: hidden;*/
+    cursor: pointer;
+    /*    object-fit: cover;*/
+}
+
+.gallery-section .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-section .image:hover {
+    opacity: 85%;
+    transform: scale(1.02);
+}
+
+*/
+/*
+div.desc {
+    padding: 2px;
+    text-align: center;
+}
+*/
+
+/* ----------------------------------------------------------------------*/
+
+/* Thumbnails */
+
+.thumbnail img {
+    height: 300px;
+    width: 495px;
+    position: absolute;
+    display: block;
+}
+
+.thumbnail img:hover {
+    display: none;
+    opacity: 0%;
+}
+
+
+/* ----------------------------------------------------------------------*/
+
+@media screen and (max-width: 960px) {
+    .gallery-section .image {
+        flex: 33.33%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-section .image {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gallery-section .image {
+        flex: 100%;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 2.25rem;
+    }
+
+    nav {
+        font-size: 1.25rem;
+    }
+
+    nav li {
+        padding: 5px;
+    }
+
+    /*
+    .home-nav {}*/
+
+
+    /*    :root{}
+    this allows for variables */
+
+    /*
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+*/
