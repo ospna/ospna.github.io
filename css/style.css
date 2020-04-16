@@ -545,7 +545,105 @@ div.desc {
     .gallery-section .image {
         flex: 50%;
     }
+
+    /*
+    header {
+        width: 100%;
+    }
+*/
 }
+
+@media screen and (max-width: 480px) {
+    .gallery-section .image {
+        flex: 100%;
+    }
+
+    .gallery-section .gallery iframe {
+        height: auto;
+        /*        width: 350px;*/
+        border: 0;
+    }
+
+    .gallery-section .home-nav li {
+        width: auto;
+        margin: -40px auto 0 auto;
+        justify-content: center;
+        font-size: .5em;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .logo {
+        text-align: center;
+        font-size: 2.5rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        font-size: 1.5rem;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    nav li {
+        padding: 5px;
+    }
+
+    p {
+        font-size: 1.5rem;
+        margin: 5px 60px 5px 60px;
+    }
+
+    label {
+        display: inline-block;
+        margin: 0 auto;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    input[type=text],
+    input[type=email],
+    select {
+        width: 100%;
+        padding: 20px 5px;
+        margin: 5px auto;
+        display: inline-block;
+        border: 1px solid #648dc3;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 175px;
+        padding: 20px;
+        margin: 20px -20px;
+        font-size: 1.25rem;
+    }
+
+    textarea {
+        width: 100%;
+        /*            height: 260px;*/
+        padding: 10px;
+        border: 1px solid #648dc3;
+        border-radius: 4px;
+        overflow: auto;
+    }
+
+    .gallery-section .gamedev iframe {
+        height: auto;
+        width: auto;
+        border: 0;
+    }
+}
+
+
+
 
 @media screen and (max-width: 375px) {
     .gallery-section .image {
@@ -553,9 +651,18 @@ div.desc {
     }
 
     .gallery-section .gallery iframe {
-        height: 200px;
+        height: 140px;
         width: 250px;
         border: 0;
+    }
+
+    .gallery-section .home-nav li {
+        width: auto;
+        margin: -80px auto 0 auto;
+        justify-content: center;
+        font-size: .5em;
+        /*        margin: 20px 20px;*/
+
     }
 
     header {
@@ -579,11 +686,6 @@ div.desc {
 
     nav li {
         padding: 5px;
-    }
-
-    .home-nav li {
-        /*                margin: 0 auto;*/
-        /*        padding: 8px;*/
     }
 
     p {
@@ -627,14 +729,9 @@ div.desc {
     }
 
     .gallery-section .gamedev iframe {
-        height: 400px;
+        height: 165px;
         border: 0;
     }
-
-    .gallery-section .gallery iframe {
-        height: 140px;
-    }
-
 
 
     /*
