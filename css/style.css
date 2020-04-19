@@ -559,7 +559,7 @@ div.desc {
     }
 
     .gallery-section .gallery iframe {
-        height: auto;
+        height: 180px;
         /*        width: 350px;*/
         border: 0;
     }
@@ -620,9 +620,9 @@ div.desc {
     }
 
     input[type=submit] {
-        width: 175px;
+        width: 100%;
         padding: 20px;
-        margin: 20px -20px;
+        margin: 10px auto;
         font-size: 1.25rem;
     }
 
@@ -640,6 +640,12 @@ div.desc {
         width: auto;
         border: 0;
     }
+
+    .modal-contents {
+        padding: 25px;
+        margin: 0 auto;
+    }
+
 }
 
 
@@ -713,10 +719,10 @@ div.desc {
     }
 
     input[type=submit] {
-        width: 125px;
+        width: 100%;
         padding: 20px;
-        margin: 20px -20px;
-        font-size: 1.25rem;
+        margin: 10px auto;
+        font-size: 1rem;
     }
 
     textarea {
@@ -732,6 +738,22 @@ div.desc {
         height: 165px;
         border: 0;
     }
+
+    .modal-contents {
+        padding: 25px;
+        margin: 0 auto;
+    }
+
+    /*
+    input[type=submit] {
+        background-color: #648dc3;
+        color: white;
+        padding: 25px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }*/
 
 
     /*
