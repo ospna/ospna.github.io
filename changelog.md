@@ -2,7 +2,16 @@
 * A Portfolio website for my existing or future projects. 
 * Giovanny Ospina - <ospinag1@tcnj.edu>
 
-### 2020-04-14 NEWEST
+### 2020-04-21 NEWEST
+
+- FIXED: My mobile responsiveness to the page
+- FIXED: My Form's layout
+- CHANGED: Header and Navigation when on mobile
+- CHANGED: My Home NAV into buttons rather than just text
+- ADDED: Content in Videos, and Pictures as well as my About page
+- ADDED: Began adding images and hovered video previews on my buttons within the home page
+
+### 2020-04-14
 
 - FIXED: My Contact form with Formspree
 - FIXED: The size of my games 
