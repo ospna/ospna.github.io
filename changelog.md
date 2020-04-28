@@ -2,7 +2,16 @@
 * A Portfolio website for my existing or future projects. 
 * Giovanny Ospina - <ospinag1@tcnj.edu>
 
-### 2020-04-21 NEWEST
+### 2020-04-28 NEWEST
+
+- FIXED: My header to make it sticky
+- FIXED: My Index/Home page layout to make it a 2 by 2
+- CHANGED: Text, spacing and layout in the About page
+- ADDED: Content in Photos page
+- ADDED: Back to top button for Photos page
+
+
+### 2020-04-21 
 
 - FIXED: My mobile responsiveness to the page
 - FIXED: My Form's layout

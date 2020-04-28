@@ -2,20 +2,11 @@
 
 /* Alignment and Text Properties */
 
+
 div.a {
     text-align: left;
     font-family: Dosis, sans-serif;
 }
-
-/*
-div.b {
-    text-align: right;
-    font-family: Dosis, sans-serif;
-    text-decoration: none;
-    font-size: 1.5rem;
-    display: inline-block;
-}
-*/
 
 div.c {
     text-align: center;
@@ -32,9 +23,10 @@ h1 {
 h2 {
     font-family: Dosis, sans-serif;
     color: #648dc3;
-    font-size: 3.25rem;
+    font-size: 2rem;
     text-decoration: none;
-    margin: 0 10px 15px;
+    margin: 0 auto;
+    padding-top: 2rem;
 }
 
 p {
@@ -54,13 +46,11 @@ header {
     padding: 10px 40px;
     margin: 0 auto;
     box-shadow: 0 0 8px #1f477d;
+    position: fixed;
+    width: 100vw;
 }
 
 body {
-    /*
-    background-color: #FDE2AB;
-           #a6d0dd #a3e2cd;
-*/
     font-family: "Dosis", sans-serif;
     font-size: 18px;
     color: #648dc3;
@@ -73,13 +63,18 @@ body {
 footer {
     clear: both;
     display: block;
-    padding-top: 20px;
+    padding-top: 1rem;
 }
 
 footer p {
     font-size: .85rem;
     text-align: center;
     color: darkslategray;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 /*
@@ -158,7 +153,7 @@ nav li a:hover {
     font-family: Dosis, sans-serif;
     display: block;
     text-decoration: none;
-    font-size: 6rem;
+    font-size: 5rem;
     margin: 0 auto;
 }
 
@@ -267,6 +262,26 @@ nav li a:hover {
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.back2top {
+    display: inline-block;
+    border: 1px solid silver;
+    background-color: #B48DC3;
+    color: white;
+    border-radius: 15%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.back2top a {
+    color: white;
+    text-decoration: none;
+}
+
+
 /*----------------------------------------------------------------------*/
 
 /* Basic Setups */
@@ -285,10 +300,12 @@ main {
     clear: both;
     max-width: 1024px;
     margin: 0 auto;
+    padding-top: 5rem;
+    /* pushed down to match height of sticky header */
 }
 
 * {
-    margin: 5px 1px;
+    margin: auto 1px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -296,6 +313,7 @@ main {
 .about-pic {
     border-radius: 100%;
     margin: 0 auto;
+    padding-bottom: 1rem;
 }
 
 
@@ -403,8 +421,6 @@ form {
     font-family: Dosis, sans-serif;
     display: block;
     margin-top: 0em;
-    /*    font-size: 1rem;*/
-    /*        margin: 0 auto;*/
 }
 
 label {
@@ -513,12 +529,12 @@ input[type=submit]:hover {
     text-align: center;
     text-transform: uppercase;
     margin: 40px 0 30px 0;
-    /*    text-decoration-line: underline;*/
 }
 
+/*
 .gallery-section .row {}
 
-.gallery-section .column {}
+.gallery-section .column {}*/
 
 .gallery-section .gallery {
     display: flex;
@@ -657,7 +673,7 @@ div.desc {
     }
 
     p {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         margin: 5px 60px 5px 60px;
     }
 
@@ -756,7 +772,7 @@ div.desc {
     }
 
     p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin: 5px 60px 5px 60px;
     }
 
