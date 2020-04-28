@@ -6,9 +6,11 @@
 
 - FIXED: My header to make it sticky
 - FIXED: My Index/Home page layout to make it a 2 by 2
+- FIXED: My Contact form (modal)
 - CHANGED: Text, spacing and layout in the About page
 - ADDED: Content in Photos page
 - ADDED: Back to top button for Photos page
+- REMOVED: My Resume on the About page, just for security and privacy sake
 
 
 ### 2020-04-21 

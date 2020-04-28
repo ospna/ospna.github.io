@@ -26,7 +26,7 @@ h2 {
     font-size: 2rem;
     text-decoration: none;
     margin: 0 auto;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 p {
@@ -271,9 +271,13 @@ html {
     border: 1px solid silver;
     background-color: #B48DC3;
     color: white;
-    border-radius: 15%;
-    margin: 1rem auto;
-    padding: 1rem;
+    font-size: 20px;
+    text-align: center;
+    /*        border: none;*/
+    border-radius: 8%;
+    justify-content: center;
+    margin: 0 30rem;
+    padding: 1px 30px;
 }
 
 .back2top a {
@@ -576,6 +580,7 @@ input[type=submit]:hover {
 .gallery-section .image:hover {
     opacity: 85%;
     transform: scale(1.02);
+    /*    overflow: scroll;*/
 }
 
 */
@@ -686,16 +691,6 @@ div.desc {
         font-size: 1.25rem;
     }
 
-    /*
-    textarea {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #648dc3;
-        border-radius: 4px;
-        overflow: auto;
-    }
-*/
-
     .gallery-section .gamedev iframe {
         height: auto;
         width: auto;
@@ -706,6 +701,10 @@ div.desc {
         height: 60%;
         padding: 25px;
         margin: 0 auto;
+    }
+
+    .back2top {
+        margin: 0 10rem;
     }
 
 }
@@ -773,4 +772,8 @@ div.desc {
     .modal-contents {
         padding: 25px;
         margin: 0 auto;
+    }
+
+    .back2top {
+        margin: 0 9rem;
     }
