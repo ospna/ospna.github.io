@@ -2,6 +2,14 @@
 * A Portfolio website for my existing or future projects. 
 * Giovanny Ospina - <ospinag1@tcnj.edu>
 
+### 2020-05-12 NEWEST
+
+- FIXED: Mobile responsiveness
+- FIXED: The back to top button on the Photos page, made center for all devices
+- CHANGED: Layout of the home page on mobile
+- ADDED: Content in Games page
+- ADDED: Graphics, a new section in the Games page to show off some animations
+
 ### 2020-04-28 NEWEST
 
 - FIXED: My header to make it sticky
