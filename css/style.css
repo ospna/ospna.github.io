@@ -86,9 +86,16 @@ footer p {
     color: darkslategray;
 }
 
+
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    /*    grid-template-columns: repeat(2, 1fr);*/
+    /*    grid-template-columns: auto auto;*/
+    /*    grid-template-columns: 1fr;*/
+    /*    grid-template-rows: 1fr;*/
+    /*    gap: 1rem 1rem;*/
+    justify-content: center;
+    /*    grid-template-areas: "Games Videos""Photos About";*/
 }
 
 /*
@@ -203,18 +210,12 @@ nav li a:hover {
     border-radius: 5%;
     padding: 50px;
     text-decoration: none;
-    /*    background-image: url("https://raw.githubusercontent.com/ospna/ospna.github.io/master/images/gamepreviews.jpg");*/
-    /*    opacity: 70%;*/
     background-image: url("https://process.filestackapi.com/AnP4G3pixRCyMaUo5jr8bz/resize=width:350/https://simmercdn.com/unity/Jhd0h2gzuhTV3dsWJsnLQtIBNBA2/content/bf04cc2d-5e32-dc6e-39be-a97a5e4f2413/screens/3.png");
     )
 }
 
 .games:hover {
-    /*
-    background-color: #B48DC3;
-    border: 5px solid #B48DC3;
-*/
-    transition: .4s;
+    transition: .2s;
     color: white;
     background-image: url("https://github.com/ospna/ospna.github.io/blob/master/images/gamepreviews.gif?raw=true");
     background-position: 50% 62%;
@@ -233,12 +234,10 @@ nav li a:hover {
 }
 
 .videos:hover {
-    /*    background: #648dc3;*/
-    /*    border: 5px solid #648dc3;*/
     background-position: 50% 42%;
     background-size: 1300px 1500px;
     background-image: url("https://github.com/ospna/ospna.github.io/blob/master/images/videopreviews.gif?raw=true");
-    transition: .4s;
+    transition: .2s;
     color: white;
 }
 
@@ -253,9 +252,9 @@ nav li a:hover {
 }
 
 .photos:hover {
-    background: #B48DC3;
-    border: 5px solid #B48DC3;
-    transition: .4s;
+    background-size: 1300px 700px;
+    background-image: url("https://github.com/ospna/ospna.github.io/blob/master/images/photospreview.gif?raw=true");
+    transition: .2s;
     color: white;
 }
 
@@ -270,9 +269,14 @@ nav li a:hover {
 }
 
 .about:hover {
+    /*
     background: #FFAdc3;
     border: 5px solid #FFAdC3;
-    transition: .4s;
+*/
+    background-position: 50% 48%;
+    background-size: 1800px 500px;
+    background-image: url("https://github.com/ospna/ospna.github.io/blob/master/images/aboutpreview.gif?raw=true");
+    transition: .2s;
     color: white;
 }
 
@@ -281,7 +285,7 @@ html {
 }
 
 .back2top {
-    display: inline-block;
+    /*    display: inline-block;*/
     border: 1px solid silver;
     background-color: #B48DC3;
     color: white;
@@ -289,9 +293,10 @@ html {
     text-align: center;
     /*        border: none;*/
     border-radius: 8%;
+    text-align: center;
     justify-content: center;
-    margin: 0 30rem;
-    padding: 1px 30px;
+    margin: 0 auto;
+    padding: 5px 10px;
     text-decoration: none;
 }
 
@@ -564,11 +569,6 @@ input[type=submit]:hover {
     margin: 40px 0 30px 0;
 }
 
-/*
-.gallery-section .row {}
-
-.gallery-section .column {}*/
-
 .gallery-section .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -606,8 +606,8 @@ input[type=submit]:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 600px;
-    height: 400px;
+    width: 660px;
+    height: 415px;
     border: 0;
     top: 0;
     left: 0;
@@ -620,6 +620,11 @@ input[type=submit]:hover {
     /*    overflow: scroll;*/
 }
 
+.gallery-section p {
+    justify-content: center;
+    text-align: center;
+}
+
 
 /*
 div.desc {
@@ -627,23 +632,6 @@ div.desc {
     text-align: center;
 }
 */
-
-/* ----------------------------------------------------------------------*/
-
-/* Thumbnails */
-
-.thumbnail img {
-    height: 300px;
-    width: 495px;
-    position: absolute;
-    display: block;
-}
-
-.thumbnail img:hover {
-    display: none;
-    opacity: 0%;
-}
-
 
 /* ----------------------------------------------------------------------*/
 
@@ -678,9 +666,11 @@ div.desc {
 
     .gallery-section .home-nav li {
         width: auto;
-        margin: -40px auto 0 auto;
-        justify-content: center;
-        font-size: .5em;
+        padding-bottom: 0;
+        padding-top: 1px;
+        /*        height: 10rem;*/
+        /*        margin: -5rem auto 0 auto;*/
+        font-size: .4em;
     }
 
     header {
@@ -740,19 +730,15 @@ div.desc {
         margin: 0 auto;
     }
 
-    .back2top {
-        margin: 0 10rem;
-    }
-
     .parent {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        /*        height: 50px;*/
         /*    grid-template-rows: 2fr;*/
         /*    grid-column-gap: 0px;*/
         /*    grid-row-gap: 0px;*/
         /*        justify-content: center;*/
     }
-
 }
 
 
@@ -813,13 +799,4 @@ div.desc {
     .gallery-section .gamedev iframe {
         height: 165px;
         border: 0;
-    }
-
-    .modal-contents {
-        padding: 25px;
-        margin: 0 auto;
-    }
-
-    .back2top {
-        margin: 0 9rem;
     }

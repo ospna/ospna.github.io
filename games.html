@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Dosis:500,Montserrat:600,Lora:400" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -46,8 +49,11 @@
                         <iframe src="https://c.simmer.io/static/unityFrame/index.html?url=https%3A%2F%2Fsimmercdn.com%2Funity%2FJhd0h2gzuhTV3dsWJsnLQtIBNBA2%2Fcontent%2Fde328cde-1ca9-a048-617b-299020dcb863&amp;imagePath=screens/2.png" allowfullscreen></iframe>
 
                         <iframe src="https://c.simmer.io/static/unityFrame/index.html?url=https%3A%2F%2Fsimmercdn.com%2Funity%2FJhd0h2gzuhTV3dsWJsnLQtIBNBA2%2Fcontent%2F367fbc21-359f-688e-ca4c-34a11c0393a4&imagePath=screens/1.png" allowfullscreen></iframe>
+
+                        <iframe src="https://c.simmer.io/static/unityFrame/index.html?url=https%3A%2F%2Fsimmercdn.com%2Funity%2FJhd0h2gzuhTV3dsWJsnLQtIBNBA2%2Fcontent%2F0e47da92-ce90-abdc-159c-445890e08458&amp;imagePath=screens/3.png" allowfullscreen></iframe>
                     </div>
                 </div>
+
                 <h2> Graphics </h2>
                 <div class="parent">
                     <div class="div1"> <a href="images/campfire.gif" class="image"> <img src="images/campfire.gif" alt=""></a></div>
@@ -85,6 +91,16 @@
     </footer>
 
     <script src="scripts/main.js"></script>
+
+    <script>
+        $(".parent").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+    </script>
 
 
 </body></html>
