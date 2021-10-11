@@ -82,7 +82,7 @@ marker.addChild( container );
 
   
   container1 = new Box({
-    x:0, y:0, z:0, width: 1, depth: 1, height: 1,rotationX:270.0,opacity:0
+    x:0, y:0, z:0, width: 1, depth: 1, height: 1,rotationX:180.0,opacity:0
 });
 marker1.addChild( container1 );
 // intent behing this 'container" box was that *it* would rotate to face the camera using a single line of code,
