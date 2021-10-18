@@ -40,7 +40,7 @@ marker.addChild( container );
 
   plane1 = new Plane({
     x:-2.0, y:-0.5, z:1.0,
-    red:255, green:0, blue:0,
+    //red:255, green:0, blue:0,
     width:0.5, height:1,
     asset:'radial_pendulus_large-01'
   });
@@ -48,7 +48,7 @@ marker.addChild( container );
 
   plane2 = new Plane({
     x:1.5, y:0.0, z:1.0,
-    red:0, green:0, blue:255,
+    //red:0, green:0, blue:255,
     width:0.5, height:1,
     asset:'radial_pendulus_medium-01'
   });
@@ -67,26 +67,27 @@ marker.addChild( container );
 
   plane4 = new Plane({
     x:0.5, y:-0.25, z:1.0,
-    red:128, green:128, blue:128,
+    //red:128, green:128, blue:128,
     width:0.5, height:1,
-    asset:'honeysuckle'
+    asset:'radial_upright_large-01'
   });
   container.addChild( plane4 );
 
   plane5 = new Plane({
     x:0, y:-0.75, z:1.0,
-    red:255, green:128, blue:0,
+    //red:255, green:128, blue:0,
     width:0.5, height:1,
-    asset:'honeysuckle'
+    asset:'radial_upright_medium-01'
   });
   container.addChild( plane5 );
   
+
+
+
+
   container1 = new Box({
     x:0, y:0, z:0, width: 1, depth: 1, height: 1,rotationX:180.0,opacity:0
 });
-
-
-
 
 marker1.addChild( container1 );
 // intent behing this 'container" box was that *it* would rotate to face the camera using a single line of code,
