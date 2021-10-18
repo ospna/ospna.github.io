@@ -2,7 +2,7 @@ let x1, x2, x3, x4, y1, y2, y3, y4, r, posNeg;
 
 let sprouts;
 
-//let parts;
+let parts;
 
 let leaf, flower;
 
@@ -15,7 +15,7 @@ function setup() {
   angleMode(DEGREES);
   createCanvas(400, 400);
   sprouts = []; // tracks sprount points along vine
-  //parts = []; // tracks parts growing from vine: leaves and flowers
+  parts = []; // tracks parts growing from vine: leaves and flowers
   createVine();
 
   let rotationRange = 10;
@@ -32,7 +32,7 @@ function setup() {
       false,
       true
     );
-    //parts.push(p);
+    parts.push(p);
     p = new Part(
       "leaf",
       leaf,
@@ -44,7 +44,7 @@ function setup() {
       true,
       true
     );
-    //parts.push(p);
+    parts.push(p);
   }
   //draw flowers separately and after leaves to appear in front
   for (let s = 0; s < sprouts.length; s++) {
@@ -59,7 +59,7 @@ function setup() {
       true,
       false
     );
-   // parts.push(p);
+    parts.push(p);
   }
 }
 
@@ -78,12 +78,10 @@ function draw() {
   //   circle(sprouts[s][0], sprouts[s][1], 5);
   // }
 
-  /*
   // calls method in 'parts' objects to draw and move leaves and flowers
   for (let p = 0; p < parts.length; p++) {
     parts[p].show();
   }
-  */
 }
 
 function createVine() {
