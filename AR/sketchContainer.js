@@ -21,6 +21,8 @@ function setup() {
   
   marker1 = world.getMarker('patt3');
 
+  marker2 = world.getMarker('hiro');
+
   // create some geometry to add to our marker
   // the marker is 1 meter x 1 meter, with the origin at the center
   // the x-axis runs left and right
@@ -86,7 +88,7 @@ marker.addChild( container );
 
 
   container1 = new Box({
-    x:0, y:0, z:0, width: 1, depth: 1, height: 1,rotationX:180.0,opacity:0
+    x:0, y:0, z:0, width: 1, depth: 1, height: 1,rotationX:270.0,opacity:0
 });
 
 marker1.addChild( container1 );
@@ -99,7 +101,7 @@ marker1.addChild( container1 );
     x:-2.0, y:-0.5, z:1.0,
     red:255, green:0, blue:0,
     width:0.5, height:1,
-    asset:'honeysuckle'
+    asset:'221_pendulus_large-01'
   });
   container1.addChild( plane6 );
 
@@ -107,7 +109,7 @@ marker1.addChild( container1 );
     x:1.5, y:0.0, z:1.0,
     red:0, green:0, blue:255,
     width:0.5, height:1,
-    asset:'honeysuckle'
+    asset:'221_pendulus_medium-01'
   });
   container1.addChild( plane7 );
 
@@ -126,7 +128,7 @@ marker1.addChild( container1 );
     x:0.5, y:-0.25, z:1.0,
     red:128, green:128, blue:128,
     width:0.5, height:1,
-    asset:'honeysuckle'
+    asset:'221_upright_large-01'
   });
   container1.addChild( plane9 );
 
@@ -134,9 +136,67 @@ marker1.addChild( container1 );
     x:0, y:-0.75, z:1.0,
     red:255, green:128, blue:0,
     width:0.5, height:1,
-    asset:'honeysuckle'
+    asset:'221_upright_medium-01'
   });
   container1.addChild( plane10 );
+
+
+
+
+
+  container = new Box({
+    x:0, y:0, z:0, width: 1, depth: 1, height: 1,rotationX:270.0,opacity:0
+});
+marker2.addChild( container2 );
+// intent behing this 'container" box was that *it* would rotate to face the camera using a single line of code,
+// rather than rotating every plane contained in the box individually.
+// but the coordinate system in A-Frame is weird... still haven't figured out how to make the container rotate as expected
+// toward the camer, around the Y axis
+
+  plane1 = new Plane({
+    x:-2.0, y:-0.5, z:1.0,
+    //red:255, green:0, blue:0,
+    width:0.5, height:1,
+    asset:'41_pendulus_large-01'
+  });
+  container2.addChild( plane11 );
+
+  plane2 = new Plane({
+    x:1.5, y:0.0, z:1.0,
+    //red:0, green:0, blue:255,
+    width:0.5, height:1,
+    asset:'41_pendulus_medium-01'
+  });
+  container2.addChild( plane12 );
+
+  plane3 = new Plane({
+    x:-1.0, y:-0.25, z:1.0,
+    //red:0, green:0, blue:255,
+    width:0.5, height:1,
+    asset:'p5graphics' 
+    // this plane is textured by a p5.graphics object
+    // https://p5js.org/reference/#/p5.Graphics
+    // find the simple code drawing random ellipsed in the draw loop below
+  });
+  container2.addChild( plane13 );
+
+  plane4 = new Plane({
+    x:0.5, y:-0.25, z:1.0,
+    //red:128, green:128, blue:128,
+    width:0.5, height:1,
+    asset:'41_upright_large-01'
+  });
+  container2.addChild( plane14 );
+
+  plane5 = new Plane({
+    x:0, y:-0.75, z:1.0,
+    //red:255, green:128, blue:0,
+    width:0.5, height:1,
+    asset:'41_upright_medium-01'
+  });
+  container2.addChild( plane15 );
+  
+
 }
 
 
@@ -185,5 +245,14 @@ function draw() {
     plane3.rotateY(normalRot);
     plane4.rotateY(normalRot);
     plane5.rotateY(normalRot);
-
+    plane6.rotateY(normalRot);
+    plane7.rotateY(normalRot);
+    plane8.rotateY(normalRot);
+    plane9.rotateY(normalRot);
+    plane10.rotateY(normalRot);
+    plane11.rotateY(normalRot);
+    plane12.rotateY(normalRot);
+    plane13.rotateY(normalRot);
+    plane14.rotateY(normalRot);
+    plane15.rotateY(normalRot);
 }
