@@ -42,7 +42,7 @@ marker.addChild( container );
     x:-2.0, y:-0.5, z:1.0,
     red:255, green:0, blue:0,
     width:0.5, height:1,
-    asset:'41_pendulus_large-01'
+    asset:'radial_pendulus_large-01'
   });
   container.addChild( plane1 );
 
@@ -50,7 +50,7 @@ marker.addChild( container );
     x:1.5, y:0.0, z:1.0,
     red:0, green:0, blue:255,
     width:0.5, height:1,
-    asset:'41_pendulus_medium-01'
+    asset:'radial_pendulus_medium-01'
   });
   container.addChild( plane2 );
 
