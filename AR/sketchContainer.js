@@ -26,6 +26,9 @@ function setup() {
   // the x-axis runs left and right
   // -0.5, 0, -0.5 is the top left corner
 
+
+
+  
 container = new Box({
     x:0, y:0, z:0, width: 1, depth: 1, height: 1,rotationX:270.0,opacity:0
 });
@@ -39,7 +42,7 @@ marker.addChild( container );
     x:-2.0, y:-0.5, z:1.0,
     red:255, green:0, blue:0,
     width:0.5, height:1,
-    asset:'honeysuckle'
+    asset:'41_pendulus_large-01'
   });
   container.addChild( plane1 );
 
@@ -47,7 +50,7 @@ marker.addChild( container );
     x:1.5, y:0.0, z:1.0,
     red:0, green:0, blue:255,
     width:0.5, height:1,
-    asset:'honeysuckle'
+    asset:'41_pendulus_medium-01'
   });
   container.addChild( plane2 );
 
@@ -81,6 +84,10 @@ marker.addChild( container );
   container1 = new Box({
     x:0, y:0, z:0, width: 1, depth: 1, height: 1,rotationX:180.0,opacity:0
 });
+
+
+
+
 marker1.addChild( container1 );
 // intent behing this 'container" box was that *it* would rotate to face the camera using a single line of code,
 // rather than rotating every plane contained in the box individually.
