@@ -77,9 +77,6 @@ marker.addChild( container );
     asset:'honeysuckle'
   });
   container.addChild( plane5 );
-
-
-
   
   container1 = new Box({
     x:0, y:0, z:0, width: 1, depth: 1, height: 1,rotationX:180.0,opacity:0
