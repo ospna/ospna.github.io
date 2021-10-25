@@ -196,13 +196,11 @@ marker2.addChild( container2 );
     asset:'41_upright_medium-01'
   });
   container2.addChild( plane15 );
-  
-
 }
 
 
-function draw() {
-
+function draw() 
+{
     world.clearDrawingCanvas();
 
     // get the rotation of the AR marker relative to the camera,
