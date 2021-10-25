@@ -76,7 +76,7 @@
       padding: 0.25em;
       border-radius: 4px;
       border: none;
-      background: white;
+      /*background: white;*/
       color: black;
       width: 4em;
       height: 2em;
@@ -89,9 +89,12 @@
 <body>
 
     <!-- modal box to tell the user to rotate their device into landscape mode - the AR toolkit only reliably renders in landscape mode -->
-    <div id="portrait_warning">
-        <h1>Rotate your device into landscape mode!</h1>
-    </div>
+    
+    <!--
+        <div id="portrait_warning">
+            <h1>Rotate your device into landscape mode!</h1>
+        </div>
+    -->
 
     <!-- Define A-Frame VR Scene and set it up so that it will be manipulated through AR.js -->
     <a-scene id="ARScene" embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono;'>
@@ -147,7 +150,7 @@
     </a-scene>
 
     <div class="buttons">
-        <button class="say-hi-button"></button>
+        <button class="say-hi-button" style="background: url(images/stonebrick.png)"></button>
       </div>
 
     <!-- <div id='debug'>
