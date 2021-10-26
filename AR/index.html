@@ -17,8 +17,8 @@
     <!-- P5 Sketch -->
     <script src="sketchContainer.js"></script>
 
-    <!-- CSS Stylesheet -->
-    <script src="style.css"></script>
+    <!-- CSS Stylesheet
+    <script src="style.css"></script> -->
 
     <script>
         window.onload = function () {
@@ -58,23 +58,6 @@
             })
         };
       </script>
-
-
-<header>
-    <div class="logo">
-        <a href="index.html">BYOH</a>
-    </div>
-    <nav>
-        <ul>
-            <li><a href="size.html">Size</a></li>
-            <li><a href="petal.html">Petal</a></li>
-            <li><a href="flower.html">Flower</a></li>
-            <li><a href="leaf.html">Leaf Fusion</a></li>
-            <li><a href="growth.html">Growth</a></li>
-            <li><a href="color.html">Color</a></li>
-        </ul>
-    </nav>
-</header>
 
     <!-- Custom Styles -->
     <style type="text/css">
@@ -119,6 +102,121 @@
             display: block;
         }
 
+    /* Alignment and Text Properties */
+
+header {
+    background-color: #fde2ab;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    margin: 0 auto;
+    box-shadow: 0 0 8px #1f477d;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+}
+
+body {
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+    color: #648dc3;
+    margin: 0;
+    padding: 0;
+    background-color: #fde2aba1;
+
+}
+
+/*----------------------------------------------------------------------*/
+
+/* Logo & Navigation */
+
+.logo {
+    /*    margin: 0 auto;*/
+    font-size: 2.5rem;
+    font-family: "Dosis", sans-serif;
+    color: #648dc3;
+    font-weight: 600;
+    text-decoration: none;
+    /*        display: flex;*/
+}
+
+.logo a:link {
+    color: #648dc3;
+    text-decoration: none;
+}
+
+.logo a:visited {
+    color: #648dc3;
+    text-decoration: none;
+}
+
+
+nav {
+    display: flex;
+    text-align: right;
+    font-family: "Dosis", sans-serif;
+    text-decoration: none;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+nav li a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav li a.active {
+    /*    padding-bottom: 0;*/
+    /*    border-bottom: 1px solid #648dc3;*/
+    font-weight: 900;
+    color: #648dc3;
+}
+
+nav li a:hover {
+    color: #B48DC3;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+/* Basic Setups */
+
+article {
+    float: right;
+    padding: 0px;
+    width: 100%;
+}
+
+aside {
+    text-align: center;
+}
+
+main {
+    clear: both;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top: 5rem;
+    /* pushed down to match height of sticky header */
+}
+
+* {
+    margin: auto 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
     .buttons {
       position: absolute;
       bottom: 0;
@@ -161,10 +259,7 @@
       height: 8em;
     }
 
-    
     </style>
-
-
 </head>
 
 <body>
@@ -236,7 +331,6 @@
         <button class="large-scale-button" style="background: url(images/pattern-HS2.png)"></button>
       </div>
 
-<!--
     <header>
         <div class="logo">
             <a href="index.html">BYOH</a>
@@ -252,7 +346,6 @@
             </ul>
         </nav>
     </header>
--->
 
     <!-- <div id='debug'>
 test
