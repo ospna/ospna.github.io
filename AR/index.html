@@ -17,8 +17,8 @@
     <!-- P5 Sketch -->
     <script src="sketchContainer.js"></script>
 
-    <!-- CSS Stylesheet
-    <script src="style.css"></script> -->
+    <!-- CSS Stylesheet -->
+    <script src="style.css"></script>
 
     <script>
         window.onload = function () {
@@ -58,144 +58,6 @@
             })
         };
       </script>
-
-    <!-- Custom Styles -->
-    <style type="text/css">
-        body {
-            margin: 0px;
-            overflow: hidden;
-        }
-
-        /* shows a warning message when the screen is rotated into portrait mode -- necessary to prevent issues on mobile devices 
-        @media screen and (orientation:portrait) {
-            #portrait_warning {
-                position: fixed;
-                top: 0px;
-                left: 0px;
-                width: 100%;
-                height: 100%;
-                text-align: center;
-                background: white;
-                z-index: 1000;
-                display: block;
-            }
-        }
-        */
-
-        /* hides the rotational warning when the screen is in landscape mode */
-        @media screen and (orientation:portait) {
-            #portrait_warning {
-                display: none;
-            }
-        }
-    
-        header {
-    background-color: black;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    box-shadow: 0 0 8px #1f477d;
-    position: fixed center;
-    width: 100%;
-    height: 20%;
-    z-index: 500;
-    padding: 2px auto;
-    display: block;
-    justify-content: center;
-    opacity: 80%;
-}
-
-
-/*----------------------------------------------------------------------*/
-
-/* Logo & Navigation */
-
-nav {
-    display: flex;
-    text-align: center;
-    font-family: "Dosis", sans-serif;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 0px 5px;
-    margin: 1px auto;
-    justify-content: center;
-    z-index: 1005;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav li {
-    list-style-type: none;
-    padding: 0 8px;
-    margin: 1px auto;
-}
-
-nav li a {
-    color: white;
-    text-decoration: none;
-}
-
-    
-    .logo {
-        text-align: center;
-        font-size: 2.5rem;
-        margin: 0px auto;
-        padding: 10px 0;
-        text-decoration: none;
-        color: white;
-    }
-      
-      .logo a{
-        text-decoration: none;
-        color: white;
-    }
-
-    .buttons {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      /*height: 5em;*/
-      display: flex;
-      justify-content: space-evenly;
-      align-items: baseline;
-      z-index: 10;
-    }
-
-    .small-scale-button {
-      padding: 0.25em;
-      border-radius: 4px;
-      border: black;
-      /*background: white;*/
-      color: black;
-      width: 4em;
-      height: 4em;
-    }
-
-    .medium-scale-button {
-      padding: 0.25em;
-      border-radius: 4px;
-      border: black;
-      /*background: white;*/
-      color: black;
-      width: 6em;
-      height: 6em;
-    }
-
-    .large-scale-button {
-      padding: 0.25em;
-      border-radius: 4px;
-      border: black;
-      /*background: white;*/
-      color: black;
-      width: 8em;
-      height: 8em;
-    }
-
-    </style>
 </head>
 
 <body>
@@ -256,16 +118,10 @@ nav li a {
 
         <a-marker id="hiro" type="pattern" url="markers/patt.hiro"></a-marker>
         <a-marker id="patt2" type="pattern" url="markers/pattern-HS2.patt"></a-marker>
-
-        <div class="buttons">
-            <button class="small-scale-button" style="background: url(images/pattern-HS2.png)"></button>
-            <button class="medium-scale-button" style="background: url(images/pattern-HS2.png)"></button>
-            <button class="large-scale-button" style="background: url(images/pattern-HS2.png)"></button>
-          </div>
     
         <header>
             <div class="logo">
-                <a href="index.html">BYOH</a>
+                <a href="index.html" img src="images/logo.jpg" height="365" class="logo-pic">BYOH </a>
             </div>
             <nav>
                 <ul>
@@ -278,6 +134,14 @@ nav li a {
                 </ul>
             </nav>
         </header>
+
+        <footer>
+            <div class="buttons">
+                <button class="small-scale-button" style="background: url(images/pattern-HS2.png)"></button>
+                <button class="medium-scale-button" style="background: url(images/pattern-HS2.png)"></button>
+                <button class="large-scale-button" style="background: url(images/pattern-HS2.png)"></button>
+              </div>
+        </footer>
 
         <a-entity camera position="0 1 -1"></a-entity>
     </a-scene>

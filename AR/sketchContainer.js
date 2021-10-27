@@ -139,7 +139,12 @@ function draw() {
 
     for (let s = 0; s < sprouts.length; s++) {
       p5graphics.circle(sprouts[s][0], sprouts[s][1], 5);
+      // p5graphics.image(flower, sprouts[s][0], sprouts[s][1], 60, 60);
+      // p5graphics.image(leaf, sprouts[s][0], sprouts[s][1], 60, 60);
     }
+
+
+    // p5graphics.image(flower, sprouts[0][0], sprouts[0][1], 60, 60);
 
     for (let p = 0; p < parts.length; p++) {
       parts[p].show();
@@ -230,24 +235,24 @@ class Part {
   }
 
   show() {
-    push();
+    p5graphics.push();
 
-    translate(this.posX, this.posY);
+    p5graphics.translate(this.posX, this.posY);
 
     if (this.isRight == false) {
-      scale(-1, 1);
+      p5graphics.scale(-1, 1);
     }
     if (this.isDown == false) {
-      scale(1, -1);
+      p5graphics.scale(1, -1);
     }
 
     // if (this.name == "flower") {
     //   this.bounce();
     // }
 
-    image(this.img, 0, 0, this.width, this.height);
+    p5graphics.image(this.img, 0, 0, this.width, this.height);
 
-    pop();
+    p5graphics.pop();
   }
 
   bounce() {
