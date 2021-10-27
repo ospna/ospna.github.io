@@ -82,13 +82,25 @@
         }
         */
 
-        /* hides the rotational warning when the screen is in landscape mode */
-        @media screen and (orientation:portait) {
+     /* hides the rotational warning when the screen is in landscape mode */
+     @media screen and (orientation:landscape) {
             #portrait_warning {
                 display: none;
             }
         }
-    
+
+    .debug {
+            position: absolute;
+            top: 2%;
+            right: 2%;
+            width: 10%;
+            height: 5%;
+            background-color: darkgrey;
+            border: black;
+            z-index: 1000;
+            display: block;
+    }
+
     header 
     {
         background-color: black;
