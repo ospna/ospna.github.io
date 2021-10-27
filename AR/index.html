@@ -89,65 +89,70 @@
             }
         }
     
-        /* Alignment and Text Properties */
-
-        header {
-                background-color: #fde2ab;
-                display: flex;
-                align-items: center;
-                margin: 0 auto;
-                box-shadow: 0 0 8px #1f477d;
-                position: fixed center;
-                width: 100%;
-                height: 25%;
-                z-index: 1000;
-                padding: 2px auto;
-                display: block;
-                justify-content: center;
+        header 
+        {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            box-shadow: 0 0 8px #1f477d;
+            position: fixed center;
+            width: 100%;
+            height: 15%;
+            z-index: 500;
+            padding: 2px auto;
+            display: block;
+            justify-content: center;
+            opacity: 80%;
         }
 
-    /* Logo & Navigation */
 
-    nav {
-        display: flex;
-        text-align: center;
-        font-family: "Dosis", sans-serif;
-        text-decoration: none;
-        font-size: 1.5rem;
-        font-weight: 500;
-        padding: 0 5px;
-        margin: 0 auto;
-    }
+/*----------------------------------------------------------------------*/
 
-    nav ul {
-        display: flex;
-    }
+/* Logo & Navigation */
 
-    nav li {
-        list-style-type: none;
-        padding: 5px;
-        margin: 5px;
-    }
+nav 
+{
+    display: flex;
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0 5px;
+    margin: 0 auto;
+    justify-content: center;
+    z-index: 1005;
+}
 
-    nav li a {
-        color: #333;
-        text-decoration: none;
-    }
+nav ul {
+    display: flex;
+}
 
-    main {
-        clear: both;
-        max-width: 375px;
-        margin: 0 auto;
-        padding-top: 0;
-        /* pushed down to match height of sticky header */
-    }
+nav li {
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
     
     .logo {
         text-align: center;
         font-size: 2.5rem;
-        margin: 0;
-        padding: 0;
+        margin: 0px auto;
+        padding: 10px;
         text-decoration: none;
+        color: white;
+    }
+      
+      .logo a{
+        text-decoration: none;
+        color: white;
     }
 
     .buttons {
