@@ -164,45 +164,45 @@
     }
 
     .buttons {
-      position: absolute;
-      bottom: 5%;
-      width: 100%;
-      /*height: 5em;*/
-      display: flex;
-      justify-content: fixed center;
-      align-items: baseline;
-      z-index: 1000;
-      float: left;
+        position: absolute;
+        bottom: 5%;
+        width: 50em;
+        height: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        float: right;
     }
 
     .small-scale-button {
-      padding: 0.25em;
-      border-radius: 4px;
-      border: black;
-      /*background: white;*/
-      color: black;
-      width: 3em;
-      height: 3em;
+        border-radius: 4px;
+        border: black;
+        background: red;
+        color: black;
+        width: 3em;
+        height: 3em;
+        margin-left: 1em;
     }
 
     .medium-scale-button {
-      padding: 0.25em;
-      border-radius: 4px;
-      border: black;
-      /*background: white;*/
-      color: black;
-      width: 3em;
-      height: 3em;
+        border-radius: 4px;
+        border: black;
+        background: black;
+        color: black;
+        width: 3em;
+        height: 3em;
+        margin-left: 1em;
     }
 
     .large-scale-button {
-      padding: 0.25em;
-      border-radius: 4px;
-      border: black;
-      /*background: white;*/
-      color: black;
-      width: 3em;
-      height: 3em;
+        border-radius: 4px;
+        border: black;
+        background: blue;
+        color: black;
+        width: 3em;
+        height: 3em;
+        margin-left: 1em;
     }
    
     </style>
@@ -271,7 +271,7 @@
             <div class="logo">
                 <a href="index.html">BYOH</a>
                 <br>
-               <img src="images/logo.jpg" height="365" class="logo-pic">>
+               <img src="images/logo.jpg" class="logo-pic">
             </div>
             <nav>
                 <ul>
@@ -286,12 +286,12 @@
         </header>
 
         <div class="buttons">
-            <button class="small-scale-button" style="background: url(images/pattern-HS2.png)" no-repeat top left></button>
-            <button class="medium-scale-button" style="background: url(images/pattern-HS2.png)" no-repeat top left></button>
-            <button class="large-scale-button" style="background: url(images/pattern-HS2.png)" no-repeat top left></button>
+            <button class="small-scale-button"></button>
+            <button class="medium-scale-button"></button>
+            <button class="large-scale-button"></button>
           </div>
 
-        <a-entity camera position="0 1 -1"></a-entity>
+        <a-entity camera></a-entity>
     </a-scene>
     <!-- <div id='debug'>
 test
