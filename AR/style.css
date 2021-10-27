@@ -71,19 +71,10 @@ nav
 nav ul 
 {
     display: flex;
-}
-
-nav li 
-{
+    text-decoration: none;
     list-style-type: none;
     padding: 0 8px;
     margin: 1px auto;
-}
-
-nav li a 
-{
-    color: white;
-    text-decoration: none;
 }
 
 .navButtons {
@@ -140,6 +131,7 @@ nav li a
     border-radius: 8px;
     border: black;
     background: pink;
+    background-image:url("pattern-HS2.png") no-repeat;
     color: black;
     width: 8em;
     height: 8em;
@@ -150,6 +142,7 @@ nav li a
     border-radius: 8px;
     border: black;
     background: yellow;
+    background-image:url("pattern-HS2.png") no-repeat ;
     color: black;
     width: 8em;
     height: 8em;
@@ -160,6 +153,7 @@ nav li a
     border-radius: 8px;
     border: black;
     background: skyblue;
+    background-image:url("pattern-HS2.png") no-repeat ;
     color: black;
     width: 8em;
     height: 8em;
