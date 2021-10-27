@@ -181,7 +181,7 @@
     .small-scale-button {
         border-radius: 8px;
         border: red;
-        background: url("images/pattern-HS2.png");
+        background: url("images/pattern-HS2.png") no-repeat;
         color: black;
         width: 8em;
         height: 8em;
@@ -200,7 +200,7 @@
 
     .large-scale-button {
         border-radius: 8px;
-        border: url("images/pattern-HS2.png");
+        border: url("images/pattern-HS2.png") no-repeat;
         background: green;
         color: black;
         width: 8em;
@@ -289,9 +289,9 @@
         </header>
 
         <div class="buttons">
-            <button type="submit" class="small-scale-button"> <img src="images/pattern-HS2.png" width="90" height="90" alt="submit"> </button>
-            <button type="submit" class="medium-scale-button"> <img src="images/pattern-HS2.png" width="90" height="90" alt="submit"> </button>
-            <button type="submit" class="large-scale-button"> <img src="images/pattern-HS2.png" width="90" height="90" alt="submit"> </button>
+            <img src="images/pattern-HS2.png" class="small-scale-button">
+            <img src="images/pattern-HS2.png" class="medium-scale-button"> 
+            <img src="images/pattern-HS2.png" class="large-scale-button"> 
           </div>
 
         <a-entity camera></a-entity>
