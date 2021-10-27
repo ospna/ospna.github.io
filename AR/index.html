@@ -138,6 +138,20 @@
         text-decoration: none;
     }
 
+    .navButtons {
+        position: fixed;
+        left: 50%;
+        width: 8em;
+        height: 5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1500;
+        float: left;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+}
+
     
     .logo {
         text-align: center;
@@ -274,12 +288,14 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="size.html">Size</a></li>
-                    <li><a href="petal.html">Petal</a></li>
-                    <li><a href="flower.html">Flower</a></li>
-                    <li><a href="leaf.html">Leaf</a></li>
-                    <li><a href="growth.html">Growth</a></li>
-                    <li><a href="color.html">Color</a></li>
+                    <div class = "navButtons">
+                        <li><button> Size</button></li>
+                        <li><button> Petal</button></li>
+                        <li><button> Flower</button></li>
+                        <li><button> Leaf</button></li>
+                        <li><button> Growth</button></li>
+                        <li><button> Color</button></li>
+                    </div>
                 </ul>
             </nav>
         </header>
@@ -297,6 +313,4 @@ test
 </div> -->
 
 </body>
-
 </html>
-
