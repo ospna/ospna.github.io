@@ -246,7 +246,7 @@ nav ul
     margin-left: 2em;
 }
 
-.two21-button {
+#two21-button {
     border-radius: 8px;
     border: black;
     background:url('images/pattern-221.png');
@@ -257,7 +257,7 @@ nav ul
     margin-left: 2em;
 }
 
-.four1-button {
+#four1-button {
     border-radius: 8px;
     border: black;
     background:url('images/pattern-41.png');
