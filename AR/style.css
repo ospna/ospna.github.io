@@ -120,6 +120,7 @@ nav ul
     color: black;
     width: 6em;
     height: 3em;
+    margin-left: .25em;
     font-size: .75rem;
 }
 
@@ -130,6 +131,7 @@ nav ul
     color: black;
     width: 6em;
     height: 3em;
+    margin-left: .25em;
     font-size: .75rem;
 }
 
@@ -140,6 +142,7 @@ nav ul
     color: black;
     width: 6em;
     height: 3em;
+    margin-left: .25em;
     font-size: .75rem;
 }
 
@@ -150,6 +153,7 @@ nav ul
     color: black;
     width: 6em;
     height: 3em;
+    margin-left: .25em;
     font-size: .75rem;
 }
 
@@ -160,6 +164,7 @@ nav ul
     color: black;
     width: 6em;
     height: 3em;
+    margin-left: .25em;
     font-size: .75rem;
 }
 
@@ -170,6 +175,7 @@ nav ul
     color: black;
     width: 6em;
     height: 3em;
+    margin-left: .25em;
     font-size: .75rem;
 }
 
@@ -192,7 +198,7 @@ nav ul
     border-radius: 8px;
     border: black;
     /*background: pink;*/
-    background:url('images/pattern-HS2.png') no-repeat;
+    background:url('images/pattern-HS2.svg') no-repeat;
     color: black;
     width: 8em;
     height: 8em;
