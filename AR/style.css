@@ -81,7 +81,7 @@ nav ul
     position: fixed;
     left: 50%;
     width: 8em;
-    height: 5em;
+    height: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,6 +110,7 @@ nav ul
     border-radius: 100%;
     margin: 0 auto;
     padding-bottom: 1rem;
+    z-index: 2000;
 }
 
 .buttons {
@@ -130,7 +131,7 @@ nav ul
 .small-scale-button {
     border-radius: 8px;
     border: black;
-    background: pink;
+    /*background: pink;*/
     background-image:url("images/pattern-HS2.png") no-repeat;
     color: black;
     width: 8em;
@@ -141,7 +142,7 @@ nav ul
 .medium-scale-button {
     border-radius: 8px;
     border: black;
-    background: yellow;
+    /*background: yellow;*/
     background-image:url("images/pattern-HS2.png") no-repeat ;
     color: black;
     width: 8em;
@@ -152,7 +153,7 @@ nav ul
 .large-scale-button {
     border-radius: 8px;
     border: black;
-    background: skyblue;
+    /*background: skyblue;*/
     background-image:url("images/pattern-HS2.png") no-repeat ;
     color: black;
     width: 8em;
