@@ -71,4 +71,4 @@ window.onload = function () {
         // or you can just open links, trigger actions...
         alert("You chose the 4+1 petal orientation"); 
       })
-  }
+    }
