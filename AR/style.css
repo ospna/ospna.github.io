@@ -118,9 +118,8 @@ nav ul
     border: black;
     background: turquoise;
     color: black;
-    width: 10em;
+    width: 8em;
     height: 3em;
-    margin-left: .25em;
     font-size: 1.05rem;
 }
 
@@ -129,9 +128,8 @@ nav ul
     border: black;
     background: skyblue;
     color: black;
-    width: 10em;
+    width: 8em;
     height: 3em;
-    margin-left: .25em;
     font-size: 1.05rem;
 }
 
@@ -140,9 +138,8 @@ nav ul
     border: black;
     background: pink;
     color: black;
-    width: 10em;
+    width: 8em;
     height: 3em;
-    margin-left: .25em;
     font-size: 1.05rem;
 }
 
@@ -151,9 +148,8 @@ nav ul
     border: black;
     background: lightgreen;
     color: black;
-    width: 10em;
+    width: 8em;
     height: 3em;
-    margin-left: .25em;
     font-size: 1.05rem;
 }
 
@@ -162,9 +158,8 @@ nav ul
     border: black;
     background: gold;
     color: black;
-    width: 10em;
+    width: 8em;
     height: 3em;
-    margin-left: .25em;
     font-size: 1.05rem;
 }
 
@@ -173,9 +168,8 @@ nav ul
     border: black;
     background: magenta;
     color: black;
-    width: 10em;
+    width: 8em;
     height: 3em;
-    margin-left: .25em;
     font-size: 1.05rem;
 }
 
@@ -198,7 +192,7 @@ nav ul
     border-radius: 8px;
     border: black;
     /*background: pink;*/
-    background-image:url("images/pattern-HS2.png") no-repeat;
+    background-image:url('images/pattern-HS2.png') no-repeat;
     color: black;
     width: 8em;
     height: 8em;
@@ -209,7 +203,7 @@ nav ul
     border-radius: 8px;
     border: black;
     /*background: yellow;*/
-    background-image:url("images/pattern-HS2.png") no-repeat ;
+    background-image:url('images/AR Media/fused_leaves-01.svg') no-repeat ;
     color: black;
     width: 8em;
     height: 8em;
@@ -220,7 +214,7 @@ nav ul
     border-radius: 8px;
     border: black;
     /*background: skyblue;*/
-    background-image:url("images/pattern-HS2.png") no-repeat ;
+    background-image:url('images/honeysuckle.jpg') no-repeat ;
     color: black;
     width: 8em;
     height: 8em;
