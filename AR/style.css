@@ -234,3 +234,36 @@ nav ul
     height: 8em;
     margin-left: 2em;
 }
+
+#radial-button {
+    border-radius: 8px;
+    border: black;
+    background:url('images/pattern-radial1.png');
+    background-size: cover;
+    color: black;
+    width: 8em;
+    height: 8em;
+    margin-left: 2em;
+}
+
+#two21-button {
+    border-radius: 8px;
+    border: black;
+    background:url('images/pattern-221.png');
+    background-size: cover;
+    color: black;
+    width: 8em;
+    height: 8em;
+    margin-left: 2em;
+}
+
+#four1-button {
+    border-radius: 8px;
+    border: black;
+    background:url('images/pattern-41.png');
+    background-size: cover;
+    color: black;
+    width: 8em;
+    height: 8em;
+    margin-left: 2em;
+}
