@@ -202,7 +202,7 @@ nav ul
     margin: 0 auto;
 }
 
-.small-scale-button {
+#small-scale-button {
     border-radius: 8px;
     border: black;
     background:url('images/pattern-HS2.png');
@@ -213,7 +213,7 @@ nav ul
     margin-left: 2em;
 }
 
-.medium-scale-button {
+#medium-scale-button {
     border-radius: 8px;
     border: black;
     background:url('images/pattern-HS2.png');
@@ -224,7 +224,7 @@ nav ul
     margin-left: 2em;
 }
 
-.large-scale-button {
+#large-scale-button {
     border-radius: 8px;
     border: black;
     background:url('images/pattern-HS2.png');
