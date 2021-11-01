@@ -246,11 +246,6 @@ nav ul
     margin-left: 2em;
 }
 
-#radial-button a{
-    display: block;
-    color: black;
-}
-
 #two21-button {
     border-radius: 8px;
     border: black;
@@ -262,11 +257,6 @@ nav ul
     margin-left: 2em;
 }
 
-#two21-button a{
-    display: block;
-    color: black;
-}
-
 #four1-button {
     border-radius: 8px;
     border: black;
@@ -276,9 +266,4 @@ nav ul
     width: 8em;
     height: 8em;
     margin-left: 2em;
-}
-
-#four1-button a{
-    display: block;
-    color: black;
 }
