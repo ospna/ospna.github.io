@@ -120,7 +120,7 @@ nav ul
     color: black;
     width: 6em;
     height: 3em;
-    font-size: 1.05rem;
+    font-size: .75rem;
 }
 
 .petal-button {
@@ -130,7 +130,7 @@ nav ul
     color: black;
     width: 6em;
     height: 3em;
-    font-size: 1.05rem;
+    font-size: .75rem;
 }
 
 .flower-button {
@@ -140,7 +140,7 @@ nav ul
     color: black;
     width: 6em;
     height: 3em;
-    font-size: 1.05rem;
+    font-size: .75rem;
 }
 
 .leaf-button {
@@ -150,7 +150,7 @@ nav ul
     color: black;
     width: 6em;
     height: 3em;
-    font-size: 1.05rem;
+    font-size: .75rem;
 }
 
 .growth-button {
@@ -160,7 +160,7 @@ nav ul
     color: black;
     width: 6em;
     height: 3em;
-    font-size: 1.05rem;
+    font-size: .75rem;
 }
 
 .color-button {
@@ -170,7 +170,7 @@ nav ul
     color: black;
     width: 6em;
     height: 3em;
-    font-size: 1.05rem;
+    font-size: .75rem;
 }
 
 .buttons {
@@ -191,8 +191,8 @@ nav ul
 #small-scale-button {
     border-radius: 8px;
     border: black;
-    background: pink;
-    background-image:url('images/pattern-HS2.png') no-repeat;
+    /*background: pink;*/
+    background:url('images/pattern-HS2.png') no-repeat;
     color: black;
     width: 8em;
     height: 8em;
@@ -203,7 +203,7 @@ nav ul
     border-radius: 8px;
     border: black;
     background: yellow;
-    background-image: url('images/AR Media/fused_leaves-01.svg') no-repeat ;
+    background: url('images/AR Media/fused_leaves-01.svg') no-repeat ;
     color: black;
     width: 8em;
     height: 8em;
@@ -214,7 +214,7 @@ nav ul
     border-radius: 8px;
     border: black;
     background: skyblue;
-    background-image:url('images/honeysuckle.jpg') no-repeat ;
+    background:url('images/honeysuckle.jpg') no-repeat ;
     color: black;
     width: 8em;
     height: 8em;
