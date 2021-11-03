@@ -55,11 +55,11 @@ window.onload = function () {
       })
     }
 
-    document.getElementById("radial-button").onclick = function() {radialButton()};
+    document.getElementById("#radial-button").onclick = function() {radialButton()};
 
     function radialButton() 
     {
-        document.getElementById("radial-button").innerHTML = alert("You chose the Radial petal orientation");
+        document.getElementById("#radial-button").innerHTML = alert("You chose the Radial petal orientation");
     }
 
       document.getElementById("#radial-button").addEventListener("click", function () {
