@@ -37,24 +37,24 @@ window.onload = function () {
       })
     }
 
+    document.getElementById("#small-scale-button").onclick = function() {smallHoneySuckle()};
     function smallHoneySuckle()
     {
-        document.getElementById("#small-scale-button").innerHTML = addEventListener("click", function () {
+        document.getElementById("#small-scale-button").innerHTML = 
             // here you can change also a-scene or a-entity properties, like
             // changing your 3D model source, size, position and so on
             // or you can just open links, trigger actions...
-            alert("Small Honeysuckle!"); 
-        })    
+            alert("Small Honeysuckle!");     
     }
 
+    document.getElementById("#medium-scale-button").onclick = function() {mediumHoneySuckle()};
     function mediumHoneySuckle()
     {
-      document.getElementById("#medium-scale-button").innerHTML = addEventListener("click", function () {
+      document.getElementById("#medium-scale-button").innerHTML = 
         // here you can change also a-scene or a-entity properties, like
         // changing your 3D model source, size, position and so on
         // or you can just open links, trigger actions...
         alert("Medium Honeysuckle!");
-      })
     }
 
     function largeHoneySuckle()
@@ -67,14 +67,14 @@ window.onload = function () {
       })
     }
 
+    document.getElementById("#radial-button").onclick = function() {radialButton()};
     function radialButton()
     {
-      document.getElementById("#radial-button").innerHTML = addEventListener("click", function () {
+      document.getElementById("#radial-button").innerHTML = 
         // here you can change also a-scene or a-entity properties, like
         // changing your 3D model source, size, position and so on
         // or you can just open links, trigger actions...
         alert("You chose the Radial petal orientation"); 
-      })
     }
 
     function two21Button()
