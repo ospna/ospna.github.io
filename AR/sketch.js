@@ -7,7 +7,7 @@ let parts;
 let leaf, flower;
 
 function preload() {
-  leaf = loadImage("images/AR Media/fused_leaves-01.svg");
+  leaf = loadImage("images/AR Media/unfused_leaves-01.svg");
   flower = loadImage("images/AR Media/Radial/radial_pendulus_large-01.svg");
 }
 
