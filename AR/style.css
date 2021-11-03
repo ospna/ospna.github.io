@@ -124,7 +124,8 @@ nav ul
 .size-button {
     border-radius: 2px;
     border: black;
-    background: turquoise;
+    background:url('images/pattern-HS2.png');
+    background-size: cover;
     color: black;
     width: 6em;
     height: 3em;
