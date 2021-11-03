@@ -67,10 +67,10 @@ window.onload = function () {
       })
     }
 
-    document.getElementById("#radial-button").onclick = function() {radialButton()};
+    document.getElementById("radial-button").onclick = function() {radialButton()};
     function radialButton()
     {
-      document.getElementById("#radial-button").innerHTML = 
+      document.getElementById("radial-button").innerHTML = 
         // here you can change also a-scene or a-entity properties, like
         // changing your 3D model source, size, position and so on
         // or you can just open links, trigger actions...
