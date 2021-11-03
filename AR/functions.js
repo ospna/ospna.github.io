@@ -35,36 +35,60 @@ window.onload = function () {
         // or you can just open links, trigger actions...
         alert("Honeysuckle Color"); 
       })
-      document.getElementById("#small-scale-button").innerHTML = addEventListener("click", function () {
-        // here you can change also a-scene or a-entity properties, like
-        // changing your 3D model source, size, position and so on
-        // or you can just open links, trigger actions...
-        alert("Small Honeysuckle!"); 
-      })
+    }
+
+    function smallHoneySuckle()
+    {
+        document.getElementById("#small-scale-button").innerHTML = addEventListener("click", function () {
+            // here you can change also a-scene or a-entity properties, like
+            // changing your 3D model source, size, position and so on
+            // or you can just open links, trigger actions...
+            alert("Small Honeysuckle!"); 
+        })    
+    }
+
+    function mediumHoneySuckle()
+    {
       document.getElementById("#medium-scale-button").innerHTML = addEventListener("click", function () {
         // here you can change also a-scene or a-entity properties, like
         // changing your 3D model source, size, position and so on
         // or you can just open links, trigger actions...
         alert("Medium Honeysuckle!");
       })
+    }
+
+    function largeHoneySuckle()
+    {
       document.getElementById("#large-scale-button").innerHTML = addEventListener("click", function () {
         // here you can change also a-scene or a-entity properties, like
         // changing your 3D model source, size, position and so on
         // or you can just open links, trigger actions...
         alert("Large Honeysuckle!");
       })
+    }
+
+    function radialButton()
+    {
       document.getElementById("#radial-button").innerHTML = addEventListener("click", function () {
         // here you can change also a-scene or a-entity properties, like
         // changing your 3D model source, size, position and so on
         // or you can just open links, trigger actions...
         alert("You chose the Radial petal orientation"); 
       })
+    }
+
+    function two21Button()
+    {
       document.getElementById("#two21-button").innerHTML = addEventListener("click", function () {
         // here you can change also a-scene or a-entity properties, like
         // changing your 3D model source, size, position and so on
         // or you can just open links, trigger actions...
         alert("You chose the 2+2+1 petal orientation"); 
       })
+    }
+
+    function four1Button()
+    {
       document.getElementById("#four1-button").innerHTML = addEventListener("click", function () {
         // here you can change also a-scene or a-entity properties, like
         // changing your 3D model source, size, position and so on
