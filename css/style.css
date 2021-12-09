@@ -78,7 +78,7 @@ footer {
     clear: both;
     display: block;
     padding-top: 1rem;
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
