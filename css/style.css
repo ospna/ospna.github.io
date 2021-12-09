@@ -261,6 +261,23 @@ nav li a:hover {
     color: white;
 }
 
+/* Snowburbia Button */
+.snowburbia {
+    border-radius: 5%;
+    padding: 50px;
+    text-decoration: none;
+    background-image: url("images/snowburbia.png");
+}
+
+.snowburbia:hover {
+    transition: .2s;
+    color: white;
+    background-image: url("images/snowburbia.png");
+    background-position: 50% 62%;
+    background-size: 950px 600px cover;
+    /*    object-fit: cover;*/
+}
+
 /* About Button */
 
 .about {
