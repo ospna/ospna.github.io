@@ -512,10 +512,10 @@ input {
     color: #333;
     transform: rotate(45deg);
     cursor: pointer;
+}
 
-    &:hover {
-        color: #666;
-    }
+.close :hover {
+    color: #666;
 }
 
 textarea {
@@ -799,3 +799,4 @@ div.desc {
         height: 165px;
         border: 0;
     }
+}
