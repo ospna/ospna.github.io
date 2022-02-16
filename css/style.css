@@ -261,29 +261,12 @@ nav li a:hover {
     color: white;
 }
 
-/* Snowburbia Button */
-.snowburbia {
-    border-radius: 5%;
-    padding: 50px;
-    text-decoration: none;
-    background-image: url("images/snowburbia.png");
-}
-
-.snowburbia:hover {
-    transition: .2s;
-    color: white;
-    background-image: url("images/snowburbia.png");
-    background-position: 50% 62%;
-    background-size: 950px 600px cover;
-    /*    object-fit: cover;*/
-}
-
 /* About Button */
 
 .about {
     padding: 50px;
     text-decoration: none;
-    background-image: url("https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e15/11205814_415540978623845_1628356699_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=105&_nc_ohc=mrxxXTNwSGYAX_X8Vlw&oh=7d9cc8dfe7e2914fd9c305be8cff91bf&oe=5EC823DE");
+    background-image: url("https://github.com/ospna/ospna.github.io/blob/master/images/baby3.jpg");
     background-size: cover;
     background-position: center center;
 }
