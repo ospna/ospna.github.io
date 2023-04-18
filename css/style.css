@@ -93,12 +93,15 @@ footer p {
 
 .grid-container {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh;
+    align-items: center;
+    justify-items: center;
     /*    grid-template-columns: repeat(2, 1fr);*/
     /*    grid-template-columns: auto auto;*/
     /*    grid-template-columns: 1fr;*/
     /*    grid-template-rows: 1fr;*/
     /*    gap: 1rem 1rem;*/
-    justify-content: center;
     /*    grid-template-areas: "Games Videos""Photos About";*/
 }
 
