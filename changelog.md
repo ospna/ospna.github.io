@@ -1,8 +1,15 @@
 # Portforgio.com changelog
 * A Portfolio website for my existing or future projects. 
-* Giovanny Ospina - <ospinag1@tcnj.edu>
+* Giovanny Ospina - <ospina.contact@gmail.com>
 
-### 2020-05-12 NEWEST
+
+### 2023-04-18 THE REVIVAL
+
+- FIXED: Social media links 
+- CHANGED: Photography and Video subpages to Multimedia
+- CHANGED: About page text and format
+
+### 2020-05-12 
 
 - FIXED: Mobile responsiveness
 - FIXED: The back to top button on the Photos page, made center for all devices
@@ -10,7 +17,7 @@
 - ADDED: Content in Games page
 - ADDED: Graphics, a new section in the Games page to show off some animations
 
-### 2020-04-28 NEWEST
+### 2020-04-28 
 
 - FIXED: My header to make it sticky
 - FIXED: My Index/Home page layout to make it a 2 by 2
